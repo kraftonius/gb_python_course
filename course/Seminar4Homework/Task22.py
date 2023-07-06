@@ -28,11 +28,11 @@ def get_same_numbers(l1, l2):
     return sorted(list(set3))
 
 
-list_len1 = int(input("Введите количество элементов 1-ого списка: "))
-list_len2 = int(input("Введите количество элементов 2-ого списка: "))
+n = int(input("Введите количество элементов 1-ого списка: "))
+m = int(input("Введите количество элементов 2-ого списка: "))
 
-list1 = create_list(list_len1)
-list2 = create_list(list_len2)
+list1 = create_list(n)
+list2 = create_list(m)
 
 print(list1)
 print(list2)
